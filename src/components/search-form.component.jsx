@@ -13,7 +13,7 @@ const SearchForm = ({params,onParamChange}) => {
                     <Form.Label>Location</Form.Label>
                     <Form.Control name="location" type="text" value={params.location} onChange={onParamChange} />
                 </Col>
-                 <Col xs="auto" className="mb-2 mt-sm-0 mt-2">
+                 <Col xs="auto" className="mt-sm-0 mt-2">
                      <Form.Check onChange={onParamChange} value={params.full_time} name="full_time" id="full-time" label="Only Full Time" type="checkbox" className="mb-2" />
                 </Col>
             </Form.Row>
