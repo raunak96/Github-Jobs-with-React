@@ -37,7 +37,7 @@ const reducer = (state,action)=>{
             return state;
     }
 }
-const BASE_URL = "/positions.json";
+const BASE_URL = "https://jobs.github.com/positions.json";
 
 const useFetchJobs= (parameters,page)=>{
 
