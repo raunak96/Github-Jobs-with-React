@@ -2,7 +2,7 @@
 
 1. install gh-pages package: ``` npm install gh-pages```
 2. In **package.json**, add the following:
-   1. ``` "homepage":"https://<github_username>/github.io/<repo-name>" ```
+   1. ``` "homepage":"https://<github_username>.github.io/<repo-name>" ```
    2. In Scripts, add 
    ``` 
     "predeploy": "npm run build",
