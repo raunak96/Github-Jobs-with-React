@@ -9,4 +9,14 @@
     "deploy": "gh-pages -d build"
    
    ```
-3. In terminal run deploy script as: ``` npm run deploy ```. This first runs predeploy script which builds our project in build folder then deploy script runs
+3. In terminal run deploy script as: 
+``` 
+npm run deploy 
+``` 
+This first runs predeploy script which builds our project in build folder then deploy script runs
+4. If using **React-Router**, make sure to write **BrowserRouter** as follows BrowserRouter:
+```
+<BrowserRouter basename={process.env.PUBLIC_URL}>
+```
+*THIS PUBLIC_URL IS AUTOMATICALLY SET BY CREATE-REACT-APP*
+The above has to be done as for gh-pages, Router takes https://<username>.github.io as BASE_URL by default excluding the repo name, hence to rectify the same we do this.
