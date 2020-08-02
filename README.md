@@ -13,7 +13,8 @@
 ``` 
 npm run deploy 
 ``` 
-This first runs predeploy script which builds our project in build folder then deploy script runs
+This first runs predeploy script which builds our project in build folder then deploy script runs.
+
 4. If using **React-Router**, make sure to write **BrowserRouter** as follows BrowserRouter:
 ```
 <BrowserRouter basename={process.env.PUBLIC_URL}>
